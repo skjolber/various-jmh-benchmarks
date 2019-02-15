@@ -1,0 +1,11 @@
+jmh {
+	// modify this regexp to run only a subset of the benchmarks
+    include = ".+Bench.*"
+}
+
+dependencies {
+    jmh compile('com.fasterxml.jackson.core:jackson-databind:2.9.8')
+
+    jmh project(":jmh-utils")
+}
+
