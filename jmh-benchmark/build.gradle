@@ -1,6 +1,6 @@
 jmh {
 	// modify this regexp to run only a subset of the benchmarks
-    include = ".+LongNumberBench.*"
+    include = ".+Bench.*"
 }
 
 dependencies {
