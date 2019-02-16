@@ -10,7 +10,7 @@ subprojects {
     apply plugin: 'java'
     apply plugin: 'com.github.ben-manes.versions'
     apply plugin: 'org.owasp.dependencycheck'
-    apply plugin: 'com.github.spotbugs'
+    //apply plugin: 'com.github.spotbugs'
     apply plugin: 'maven'
 
     sourceCompatibility = 1.8
