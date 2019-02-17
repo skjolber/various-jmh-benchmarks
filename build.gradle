@@ -17,11 +17,7 @@ subprojects {
     targetCompatibility = 1.8
     
     ext {
-        javaJwtVersion = '3.7.0'
-        jwksRsaVersion = '0.7.0'
-        jjwtVersion = '0.9.1'
         jmhVersion = '1.21'
-        oktaVersion = '0.4.0'
         junitJupiterVersion  = '5.3.2'
     }
     
